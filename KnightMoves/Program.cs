@@ -72,7 +72,7 @@ namespace KnightMoves
             // PrintMatrix(board);
 
             board[initialPosition[0], initialPosition[1]] = 1;
-            tryMovement(2, initialPosition[0], initialPosition[1]);
+            FindBestSolution(2, initialPosition[0], initialPosition[1]);
             
             if (moves == int.MaxValue) return 0;
 
@@ -82,7 +82,7 @@ namespace KnightMoves
             return moves;
         }
 
-        private bool tryMovement(int move, int x, int y)
+        private void FindBestSolution(int move, int x, int y)
         {
             bool found = IsFinalPosition(x, y);
             int k = 0, u, v;
@@ -101,14 +101,12 @@ namespace KnightMoves
                 if (IsValidMovement(u, v))
                 {
                     board[u, v] = move;
-                    tryMovement(move + 1, u, v);
+                    FindBestSolution(move + 1, u, v);
                     board[u, v] = 0;
                 }
 
                 k++;
             }
-
-            return found;
         }
 
         private bool IsValidMovement(int x, int y)
