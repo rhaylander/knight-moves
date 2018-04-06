@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightMoves", "KnightMoves\KnightMoves.csproj", "{FE98234B-6F0B-4AA5-B2B6-5FFEC8447D57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE98234B-6F0B-4AA5-B2B6-5FFEC8447D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE98234B-6F0B-4AA5-B2B6-5FFEC8447D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE98234B-6F0B-4AA5-B2B6-5FFEC8447D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE98234B-6F0B-4AA5-B2B6-5FFEC8447D57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0542C38E-4623-4A33-8953-19E7780422F3}
+	EndGlobalSection
+EndGlobal
